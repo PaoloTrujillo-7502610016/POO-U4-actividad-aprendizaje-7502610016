@@ -21,6 +21,14 @@ public class Pintura extends Obra{
         return forma;
     }
 
+    //Sobreescritura del metodo heredado
+    @Override
+    public void detalleObra(){
+        super.detalleObra();
+        System.out.println("Material de la pintura: "+getMaterial());
+        System.out.println("Forma de la pintura: " +getForma());
+    }
+
 
 
 }

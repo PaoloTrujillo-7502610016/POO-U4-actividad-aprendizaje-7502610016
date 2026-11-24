@@ -1,0 +1,10 @@
+@startuml
+    class Escultura{
+        -material: String
+        -tecnica: String
+        
+    }
+
+    Obra <|-- Escultura: es una
+
+@enduml

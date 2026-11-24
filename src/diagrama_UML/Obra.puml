@@ -1,0 +1,11 @@
+@startuml
+    abstract class Obra{
+        -nombre: String
+        -fechaCreacion: LocalDate
+        -creador: String
+        -ciudadOrigen: String
+
+        +detalleObra(): void
+
+    }
+@enduml

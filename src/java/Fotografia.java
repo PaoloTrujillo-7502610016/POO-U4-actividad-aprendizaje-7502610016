@@ -21,6 +21,13 @@ public class Fotografia extends Obra{
         return orientacion;
     }
 
+    //Sobreescritura del metodo heredado
+    @Override
+    public void detalleObra(){
+        super.detalleObra();
+        System.out.println("Tipo de fotografia: "+getTipo());
+        System.out.println("Orientacion: " +getOrientacion());
+    }
 
 
 

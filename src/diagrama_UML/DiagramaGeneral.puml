@@ -1,6 +1,8 @@
 @startuml
-    class DiagramaGeneral{
-        
-        
-    }
+
+!include Obra.puml
+!include Pintura.puml
+!include Escultura.puml
+!include Fotografia.puml
+
 @enduml

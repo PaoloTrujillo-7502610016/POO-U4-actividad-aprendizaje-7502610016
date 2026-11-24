@@ -21,6 +21,13 @@ public class Escultura extends Obra{
         return tecnica;
     }
 
+    //Sobreescritura del metodo heredado
+    @Override
+    public void detalleObra(){
+        super.detalleObra();
+        System.out.println("Material de la escultura: "+getMaterial());
+        System.out.println("Tecnica de la escultura: " +getTecnica());
+    }
 
 
 }

@@ -1,0 +1,9 @@
+@startuml
+    class Fotografia{
+        -tipo: String
+        -orientacion: String
+        
+    }
+    Obra <|-- Fotografia: es una
+
+@enduml

@@ -26,6 +26,17 @@ public abstract class Obra {
     public String getCreador() {
         return creador;
     }
+    public String getCiudadOrigen() {
+        return ciudadOrigen;
+    }
+
+    //Metodo para mostrar detalle de la obra:
+    public void detalleObra(){
+        System.out.println("Obra titulada: "+getNombre());
+        System.out.println("Fecha de creación: "+getFechaCreacion());
+        System.out.println("Creador de la obra: "+getCreador());
+        System.out.println("Ciudad de origen: "+getCiudadOrigen());
+    }
 
 
 }

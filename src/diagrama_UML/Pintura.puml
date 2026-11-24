@@ -1,0 +1,9 @@
+@startuml
+    class Pintura{
+        -material: String
+        -forma: String
+
+    }
+    Obra <|-- Pintura : es una
+
+@enduml
