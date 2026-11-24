@@ -1,0 +1,7 @@
+@startuml
+    class Sede{
+        -nombre : String
+        
+    }
+    Museo "1" -- "1..*" Sede
+@enduml

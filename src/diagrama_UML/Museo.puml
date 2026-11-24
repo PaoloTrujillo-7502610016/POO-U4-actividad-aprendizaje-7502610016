@@ -1,0 +1,9 @@
+@startuml
+    class Museo{
+        -nombre: String
+        -ciudad: String
+
+        +getNombre(): void
+    }
+
+@enduml

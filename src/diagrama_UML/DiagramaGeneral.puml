@@ -4,5 +4,7 @@
 !include Pintura.puml
 !include Escultura.puml
 !include Fotografia.puml
+!include Museo.puml
+!include Sede.puml
 
 @enduml
